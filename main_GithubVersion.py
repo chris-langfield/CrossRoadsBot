@@ -37,6 +37,7 @@ while count < 100:
     rLon = 0
     CityName = ''
     Country = ''
+    ### this data comes from the free database downloadable as CSV at https://simplemaps.com/data/world-cities
     with open('worldcities.csv',encoding="utf-8") as CitiesDB:
         Cities = csv.reader(CitiesDB)
         randRow = []
